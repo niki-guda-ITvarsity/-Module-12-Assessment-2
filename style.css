@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: 'Cinzel', serif;
+    background: radial-gradient(circle at center, #FFEBF6, #FFDAB9, #E6F5FF);
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Centered Card Layout */
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FFDAB9;
+}
+
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-refresh {
+    background-color: #FFB6C1;
+    color: #fff;
+    border: none;
+}
+
+.btn-add {
+    background-color: #FFDAB9;
+    color: #333;
+    border: none;
+}
+
+.btn-home,
+.btn-edit,
+.btn-delete {
+    background-color: #B3D9FF;
+    color: #333;
+    border: none;
+}
+
+/* Contact List */
+#table {
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+#table img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Image Styling */
+#avatarImage img {
+    border: 3px solid #FFB6C1;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Add padding to prevent touching screen edges */
+.container {
+    padding: 20px;
+}
